@@ -12,7 +12,8 @@ struct VideoDetailView: View {
     // you need to import data as a unit so you create a variable called video that takes in a dateType of "Video"
     
     var body: some View {
-        VStack{
+        VStack(spacing:20){
+            Spacer()
             Image(video.imageName)
                 .resizable()
                 .scaledToFit()
@@ -27,7 +28,25 @@ struct VideoDetailView: View {
             
             HStack{
                 Label("\(video.viewCount)", systemImage: "eye.fill")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                Text(video.uploadDate)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
             }
+            Text(video.description)
+                .font(.body)
+                .padding()
+            Spacer()
+            Link(destination: video.url, label: {
+                Text("Watch Now")
+                    .bold()
+                    .font(.title2)
+                    .frame(width: 260, height: 50, alignment: .center)
+                    .background(Color(.systemRed))
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            })
         }
     }
 }

@@ -15,6 +15,7 @@
 		0221E9FD266551EB002A5351 /* SwiftUIListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221E9FC266551EB002A5351 /* SwiftUIListUITests.swift */; };
 		0221EA0C26655345002A5351 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221EA0A26655345002A5351 /* VideoDetailView.swift */; };
 		0221EA0D26655345002A5351 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221EA0B26655345002A5351 /* Video.swift */; };
+		0221EA0F26655912002A5351 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221EA0E26655912002A5351 /* DataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0221E9FE266551EB002A5351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0221EA0A26655345002A5351 /* VideoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 		0221EA0B26655345002A5351 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0221EA0E26655912002A5351 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				0221E9DF266551E7002A5351 /* SwiftUIListApp.swift */,
 				0221E9E1266551E7002A5351 /* ContentView.swift */,
+				0221EA0E26655912002A5351 /* DataCell.swift */,
 				0221EA0B26655345002A5351 /* Video.swift */,
 				0221EA0A26655345002A5351 /* VideoDetailView.swift */,
 				0221E9E3266551EB002A5351 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				0221E9E2266551E7002A5351 /* ContentView.swift in Sources */,
 				0221EA0D26655345002A5351 /* Video.swift in Sources */,
 				0221EA0C26655345002A5351 /* VideoDetailView.swift in Sources */,
+				0221EA0F26655912002A5351 /* DataCell.swift in Sources */,
 				0221E9E0266551E7002A5351 /* SwiftUIListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
