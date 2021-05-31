@@ -23,7 +23,7 @@ struct VideoDetailView: View {
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
                 .multilineTextAlignment(.center)
-            padding(.horizontal)
+                .padding(.horizontal)
             
             HStack{
                 Label("\(video.viewCount)", systemImage: "eye.fill")
